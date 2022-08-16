@@ -1,0 +1,8 @@
+plugin: oracle.oci.oci
+regions: all
+fetch_db_hosts: true
+hostname_format_preferences:
+  - "display_name+'.oci.com'"
+  - "private_ip"
+  - "public_ip"
+  - "time_created"
